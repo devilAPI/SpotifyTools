@@ -2,7 +2,7 @@ Clear-Host
 Write-Host "Welcome to SpotifyTools!"
 Write-Host "Please select wich Tool you want to use."
 Write-Host ""
-Write-Host "1 - SpicetifyHelper"
+Write-Host "1 - Install Spicetify"
 Write-Host "2 - BlockTheSpot Installer"
 Write-Host "3 - Auto-Installer (for faster Installs)"
 Write-Host ""
@@ -10,7 +10,9 @@ $toolid = Read-Host 'Please select'
 Clear-Host
 Write-Host "You chose $toolid!"
 if($toolid -eq 1) {
-    Write-Host "SpicetifyHelper is not available yet."
+    Write-Host "Downloading and running Spicetify Installer..."
+    Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/khanhas/spicetify-cli/master/install.ps1" | Invoke-Expression
+    Clear-Host
 }
 elseif($toolid -eq 2) {
     Write-Host "Downloading BTS Installer..."
