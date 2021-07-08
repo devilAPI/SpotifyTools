@@ -1,4 +1,4 @@
-﻿Clear-Host
+Clear-Host
 Write-Host "Welcome to SpotifyTools!"
 Write-Host "Please select wich Tool you want to use."
 Write-Host ""
