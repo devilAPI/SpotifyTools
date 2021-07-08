@@ -29,7 +29,7 @@ elseif($toolid -eq 3) {
     if($autoinstallerid -eq 1) {
         Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/JulienMaille/dribbblish-dynamic-theme/master/install.ps1" | Invoke-Expression
     }
-    else { Write-Host "This isntaller dosent exist."}
+    else { Write-Host "This installer dosent exist."}
 }
 else { Write-Host "This tool dosent exist."}
 exit
