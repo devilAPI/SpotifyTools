@@ -11,7 +11,7 @@ cmd /k PowerShell.exe "Invoke-WebRequest -UseBasicParsing "https://raw.githubuse
 
 ## Features
 
-* Spicetify Installer
-* BlockTheSpot Installer
+* [Spicetify](https://github.com/khanhas/spicetify-cli) Installer
+* [BlockTheSpot](https://github.com/mrpond/BlockTheSpot) Installer
 * Auto Installers
-* * DribblishDynamic v2
+* * [DribblishDynamic](https://github.com/JulienMaille/dribbblish-dynamic-theme) v2
