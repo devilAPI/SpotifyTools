@@ -3,10 +3,10 @@ A small PowerShell Script providing tweaks to the Spotify Desktop Application.
 
 ## Getting Started
 
-To run the App, just press `Win + R` and paste the following line of code:
+To run the App, run the following command in PowerShell
 
 ```powershell
-cmd /k PowerShell.exe "Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/devilAPI/SpotifyTools/main/SpotifyTools.ps1" | Invoke-Expression"
+Invoke-WebRequest -UseBasicParsing "https://raw.githubusercontent.com/devilAPI/SpotifyTools/main/SpotifyTools.ps1" | Invoke-Expression
 ``` 
 
 ## Features
