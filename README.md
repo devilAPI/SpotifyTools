@@ -1,3 +1,4 @@
+# Archived, this maynot work anymore!
 # SpotifyTools
 A small PowerShell Script providing tweaks to the Spotify Desktop Application.
 
